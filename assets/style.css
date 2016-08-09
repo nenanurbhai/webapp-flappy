@@ -1,0 +1,29 @@
+h1{
+  color: darkblue;
+  font-size: 50px;
+  font-style: normal;
+  font-family: monospace;
+}
+
+p{
+  font-family: monospace;
+}
+
+li{
+  font-family: monospace;
+}
+
+.bronze{
+  color: brown;
+}
+
+.silver{
+  color: gray;
+}
+
+.gold{
+  color: gold;
+}
+
+#gameLink {
+  text-align: center;

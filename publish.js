@@ -13,6 +13,8 @@ if (!Date.now) {
   };
 }
 
+var name = "nenanurbhai";
+var email = "nenanurbhai@gmail.com";
 //var name = "Your Github Name";
 //var email = "Your Github email";
 

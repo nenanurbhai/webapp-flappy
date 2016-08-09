@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Flappy whale!</title>
+    <link rel="stylesheet" href="../assets/style.css"/>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1>Flappy Whale!</h1>
+
+      <p>The Flappiest whale there ever was.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+      <div id="game"> </div>
+      <div class="col-md-6">
+
+          <div>
+                <button type="button" class="btn btn-default" id="scoresbtn">Scores</button>
+                <button type="button" class="btn btn-default" id="creditsbtn">Credits</button>
+                <button type="button" class="btn btn-default" id="helpbtn">Help</button>
+          </div>
+
+          <div>
+            <div id="content"></div>
+          </div>
+          <div id=scoreBoard>
+          </div>
+      </div>
+    </div>
+
+          <div class="row">
+            <div class="col-md-4">
+                <img src="../assets/download1.png" class="img-thumbnail img-responsive"/>
+            </div>
+            <div class="col-md-4">
+                <img src="../assets/screenshotmine.png" class="img-thumbnail img-responsive"/>
+            </div>
+           </div>
+
+
+             <script type="text/javascript" src="../lib/phaser.min.js"></script>
+             <script type="text/javascript" src="../js/flappy.js"></script>
+
+             <script type="text/javascript" src="../lib/jquery.js"></script>
+             <script type="text/javascript" src="../js/interactivity.js"></script>
+      </body>
+</html>
